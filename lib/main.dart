@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/screens/bussinis_card_screen.dart';
+import 'package:test_project/basketball_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +11,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
+     home: BasketBallScreen()
+     );
   }
 }
+
