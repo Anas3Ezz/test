@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/basketball_screen.dart';
+import 'package:test_project/screens/basketball_screen/basketball_screen.dart';
 
 void main() {
   runApp(const MyApp());
