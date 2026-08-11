@@ -1,17 +1,5 @@
-# test_project
+# Bussins Screen
 
-A new Flutter project.
+<img width="324" height="535" alt="Screenshot 2026-08-11 at 6 47 46 PM" src="https://github.com/user-attachments/assets/2c81c6b7-8b5d-438b-a98c-c4d98cd05513" />
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
