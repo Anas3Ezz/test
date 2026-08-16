@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/screens/basketball_screen/basketball_screen.dart';
+import 'package:test_project/screens/auth/signup_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-     home: BasketBallScreen()
-     );
+      home: const SignUpScreen(),
+    );
   }
 }
 
