@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/widgets/custom_textformfeild.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
