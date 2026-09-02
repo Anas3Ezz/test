@@ -17,36 +17,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class Counter extends StatefulWidget {
-  const Counter({super.key});
-
-  @override
-  State<Counter> createState() => _CounterState();
-}
-
-class _CounterState extends State<Counter> {
-  int counter = 0;
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Row(
-          children: [
-            IconButton(onPressed: () {
-             setState(() {
-                counter--;
-             });
-            }, icon: Icon(Icons.remove)),
-            Text('$counter'),
-            IconButton(onPressed: () {
-            setState(() {
-                counter++;
-            });
-            }, icon: Icon(Icons.add)),
-          ],
-        ),
-      ),
-    );
-  }
-}
 //hardcoded
