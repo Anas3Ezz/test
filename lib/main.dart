@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/screens/bmi/bmi_screen.dart';
+import 'package:test_project/test_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const BMIScreen(),
+      home: Scaffold(
+        body: Center(child: TestScreen()),
+      ),
     );
   }
 }
-
-//hardcoded
